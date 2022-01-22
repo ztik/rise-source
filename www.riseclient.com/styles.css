@@ -1,0 +1,250 @@
+/*Fonts*/
+
+h1 {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+/*Body*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.riseHeading1 {
+    font-size: 128px;
+    font-family: raleway;
+    font-weight: 500;
+    padding-left: 25vw;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.308));
+    position: absolute;
+    width: 50%;
+}
+
+.riseHeading2 {
+    font-size: 22px;
+    font-family: raleway;
+    font-weight: 70;
+    padding-top: 130px;
+    padding-left: 25.2vw;
+    position: absolute;
+    width: 50%;
+}
+
+.buyButton {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 62vw;
+    background-color: #0071e3;
+    border-radius: 120px;
+    text-align: center;
+    width: 120px;
+    padding: 15px;
+    bottom: 1000px;
+    filter: drop-shadow(0 0 30px #0071e3);
+}
+
+@media (max-width: 800px) {
+    .buyButton {
+        margin-top: 170px;
+        margin-left: 52vw;
+    }
+    .riseHeading1 {
+        padding-left: 20vw;
+    }
+    .riseHeading2 {
+        padding-left: 20vw;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.spacer {
+    height: calc(36vh)
+}
+
+.spacer2 {
+    height: calc(10vh)
+}
+
+.landingPage {
+    display: inline;
+}
+
+.body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    height: 1000vh;
+}
+
+/*Gradient that goes over the top of the video*/
+
+.gradient {
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to left top, rgb(78, 253, 154, 0.5), rgb(78, 161, 253, 0.5));
+    background: -moz-linear-gradient(to left top, rgb(78, 253, 154, 0.5), rgb(78, 161, 253, 0.5));
+    background: -ms-linear-gradient(to left top, rgb(78, 253, 154, 0.5), rgb(78, 161, 253, 0.5));
+    background: -o-linear-gradient(to left top, rgb(78, 253, 154, 0.5), rgb(78, 161, 253, 0.5));
+    background: linear-gradient(to left top, rgb(78, 253, 154, 0.5), rgb(78, 161, 253, 0.5));
+}
+
+/*Setting width and height of video*/
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    /*setting layer of video on the lowest layer*/
+    z-index: -100;
+}
+
+.headings {
+    color: white;
+}
+
+.instantDelivery {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bodyHeader {
+    font-size: 50px;
+    font-family: raleway;
+    font-weight: 400;
+    padding-left: 25vw;
+    position: absolute;
+    width: 50%;
+}
+
+.bodyHeading {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: all 1s;
+    line-height: 45px;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.bodyHeading.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.bodySubheading {
+    font-size: 35px;
+    font-weight: 20;
+}
+
+.clickguiAndMainMenuImage {
+    width: 70vw;
+    height: 33.75vw;
+}
+
+.spacer3 {
+    height: calc(20vh);
+}
+
+.quotes {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.quote {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 25vw;
+    font-size: 25px;
+    font-family: raleway;
+    font-weight: 100;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.507));
+    line-height: 35px;
+}
+
+.background {
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to left top, rgba(0, 140, 255, 0.5), rgba(78, 160, 253, 0));
+    background: -moz-linear-gradient(to left top, rgb(0, 140, 255, 0.5), rgba(78, 160, 253, 0));
+    background: -ms-linear-gradient(to left top, rgb(0, 140, 255, 0.5), rgba(78, 160, 253, 0));
+    background: -o-linear-gradient(to left top, rgb(0, 140, 255, 0.5), rgba(78, 160, 253, 0));
+    background: linear-gradient(to left top, rgb(0, 140, 255, 0.5), rgba(78, 160, 253, 0));
+}
